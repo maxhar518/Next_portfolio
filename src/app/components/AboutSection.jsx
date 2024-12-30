@@ -23,8 +23,9 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>BS in Computer Science from Sindh Madressatul Islam University, Karachi Sindh</li>
+        <li>Mobile and Web Development Course From Saylani mass IT</li>
+        <li>Governor Initiative for Artificial Intelligence, Web 3.0 and Metaverse</li>
       </ul>
     ),
   },
@@ -33,8 +34,12 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Application Security course from 10Pearls University!</li>
+        <li>GIT Fundamentals course through 10Pearls University</li>
+        <li>Web Development Essentials:Bootstrap and jQuery From 10Pearls</li>
+        <li>React Development course at 10Pearls University</li>
+        <li>Web Development from Microsoft Learn Student Ambassadors</li>
+        <li>Soft Skill Program by Google & IBA</li>
       </ul>
     ),
   },
@@ -60,8 +65,7 @@ const AboutSection = () => {
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
             working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
+            Sequelize,and Git. I am a team player and
             I am excited to work with others to create amazing applications.
           </p>
           <div className="flex flex-row justify-start mt-8">

@@ -15,14 +15,14 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-4 text-4xl sm:text-3xl lg:text-6xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I&apos;m{" "}
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
+                "Mazhar Ali",
                 1000,
                 "Web Developer",
                 1000,
@@ -32,13 +32,14 @@ const HeroSection = () => {
                 1000,
               ]}
               wrapper="span"
-              speed={50}
+              speed={10}
               repeat={Infinity}
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            I am a skilled full-stack developer with expertise in frontend & backend. My experience spans across API development and integration, including working with RESTful and third-party APIs. I have hands-on experience with SQL, MongoDB, and XAMPP,
+            and specialize in implementing secure authentication and authorization systems using JWT tokens.I hold a Bachelor’s degree in Computer Science from SMIU, one of the most historic institutions in South Asia., I am teaching and mentoring currently,
+            finding immense satisfaction in helping others grow and excel in the tech field.
           </p>
           <div>
             <Link
@@ -65,7 +66,7 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/hero-image.png"
+              src="/images/hero.png"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
